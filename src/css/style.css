@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+header {
+  width: 100%;
+  background: #333;
+  display: flex;
+  padding: 50px 5vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center; }
+  header h1 a {
+    font: bold 24px/1 "arial";
+    color: #fff; }
+  header #gnb {
+    display: flex; }
+    header #gnb a {
+      display: inline-block;
+      padding: 12px 30px;
+      font: bold 14px/1 "arial";
+      color: #ddd; }
+
+/*# sourceMappingURL=style.css.map */
