@@ -1,6 +1,6 @@
 function Flickr(){
   return (
-    <div>Flickr</div>
+    <main>FLICKR</main>
   )
 }
 

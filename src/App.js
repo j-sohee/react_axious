@@ -1,6 +1,7 @@
 import './css/style.css';
 import {Route} from 'react-router-dom';
 import Header from './Header.js';
+import Footer from './Footer.js';
 import Main from './components/Main.js';
 import Department from './components/Department.js';
 import Flickr from './components/Flickr.js';
@@ -19,6 +20,8 @@ function App() {
       <Route exact path="/flickr" component={Flickr}></Route>
       <Route exact path="/youtube" component={Youtube}></Route>
       <Route exact path="/Board" component={Board}></Route>
+
+      <Footer />
     </div>
   );
 }

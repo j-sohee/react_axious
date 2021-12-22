@@ -1,6 +1,6 @@
 function Department(){
   return (
-    <div>조직도</div>
+    <main>DEPARTMENT</main>
   )
 }
 

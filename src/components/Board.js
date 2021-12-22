@@ -1,6 +1,6 @@
 function Board(){
   return (
-    <div>Board</div>
+    <main>BOARD</main>
   )
 }
 
