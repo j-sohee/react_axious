@@ -8,9 +8,7 @@ import Flickr from './components/Flickr.js';
 import Youtube from './components/Youtube.js';
 import Board from './components/Board';
 
-
-function App() {
-  
+function App() {  
   return (
     <div className="App">
       <Header />

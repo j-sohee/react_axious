@@ -1,4 +1,7 @@
 main {
-  width: 100%; height: calc(100vh - 180px); display: flex; justify-content: center; align-items: center;
-  font-size: 5vmax; color: #bbb;
+  padding: 100px 6vw;
+
+  h1 {
+    font: bold 24px/1 "arial"; color: #444; margin-bottom: 20px;
+  }
 }
