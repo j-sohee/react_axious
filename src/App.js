@@ -1,5 +1,5 @@
 import './css/style.css';
-import {Route, Link} from 'react-router-dom';
+import {Route, NavLink} from 'react-router-dom';
 import Main from './components/Main.js';
 import Department from './components/Department.js';
 import Flickr from './components/Flickr.js';
@@ -8,18 +8,19 @@ import Board from './components/Board';
 
 
 function App() {
+  const activeStyle = {color: "aqua"}
   return (
     <div className="App">
       <header>
         <h1>
-          <Link to="/">DCODELAB</Link>
+          <NavLink exact to="/" activeStyle={activeStyle}>DCODELAB</NavLink>
         </h1>
         
         <ul id="gnb">
-          <li><Link to="/department">Department</Link></li>
-          <li><Link to="/flickr">Flickr</Link></li>
-          <li><Link to="/youtube">Youtube</Link></li>
-          <li><Link to="/board">Board</Link></li>
+          <li><NavLink exact to="/department" activeStyle={activeStyle}>Department</NavLink></li>
+          <li><NavLink exact to="/flickr" activeStyle={activeStyle}>Flickr</NavLink></li>
+          <li><NavLink exact to="/youtube" activeStyle={activeStyle}>Youtube</NavLink></li>
+          <li><NavLink exact to="/board" activeStyle={activeStyle}>Board</NavLink></li>
         </ul>       
       </header>
 
